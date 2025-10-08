@@ -31,10 +31,8 @@ changelog:
   sort: asc
   filters:
     exclude:
-      - '^docs:'
-      - '^test:'
-
-# You can add more configurations here, such as:
+      - "^docs:"
+      - "^test:"
 # - `release`: for GitHub/GitLab releases
 # - `brews`: for Homebrew taps
 # - `scoop`: for Scoop manifests
