@@ -4,18 +4,11 @@ A CLI tool for managing parti members.
 particard is a command-line interface (CLI) tool designed to manage parti members.
 It allows you to create, retrieve, update, and remove member records efficiently.
 
-## Installation
-
-To get started with particard, you first need to build the executable:
-
-```bash
-go build ./cmd/partycard/main.go
-```
 
 Then, you can run the setup command to initialize your database:
 
 ```bash
-./main.exe setup --db sqlite
+particard setup --db sqlite
 ```
 This will create the necessary database directory and file, and configure the application.
 
